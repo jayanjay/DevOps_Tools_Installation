@@ -33,7 +33,7 @@ java -version
 
 ```bash
 sudo wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-25.6.0.109173.zip
-sudo unzip sonarqube-25.6.0.zip
+unzip sonarqube-25.6.0.109173.zip
 sudo mv sonarqube-25.6.0.109173 /opt/sonarqube
 ```
 
