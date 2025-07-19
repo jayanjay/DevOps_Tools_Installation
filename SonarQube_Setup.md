@@ -47,7 +47,7 @@ sudo useradd -r -M sonar
 sudo chown -R sonar:sonar /opt/sonarqube
 ```
 
----
+<!-- --- Ignore this piece of code
 ### Note: Make sure always start sonarqube as sonar user don't try to start as any other user. If SonarQube is failed to start delete /opt/sonarqube/temp folder then start sonarqube as sonar user.
 ---
 ## Start SonarQube
@@ -63,7 +63,7 @@ Check logs:
 tail -f /opt/sonarqube/logs/sonar.log
 ```
 
----
+Ignore till here --- --> 
 
 ## Create a Systemd Service
 
