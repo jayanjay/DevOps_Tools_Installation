@@ -97,6 +97,7 @@ Enable and start:
 sudo systemctl daemon-reload
 sudo systemctl enable sonarqube
 sudo systemctl start sonarqube
+sudo systemctl status sonarqube
 ```
 ---
 
